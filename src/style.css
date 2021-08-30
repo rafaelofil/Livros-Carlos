@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box; 
+}
+  
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a,
+button {
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  max-width: 680px;
+  background-color: #F3F3DF;
+  margin: 0 auto;
+}
+
+#presentation {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  font-family: ubuntu;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+#perfil {
+  border-radius: 50%;
+  width: 150px;
+  height: 150x;
+  border: 2px solid #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#quote {
+  margin-left: 2rem;
+}
+
+#phrase {
+  font-size: 21px;
+  line-height: 21px;
+  font-weight: bold;
+}
+
+#reference {
+  margin-top: 4px;
+  font-size: 18px;
+  font-style: italic;
+}
+
+#intro {
+  max-width: 660px;
+  font-size: 21px;
+  line-height: 27px;
+  font-family: Garamond, "EB Garamond", serif;
+  margin-bottom: 1rem;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+h2 {
+  font-family: ubuntu;
+  width: 50px;
+  border-bottom: 2px solid;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-bottom: -12px;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+dt {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: ubuntu;
+  cursor: pointer;
+  padding-top: 0.4rem;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+#teiko9 {
+  font-size: 17.4px;
+}
+
+#separator {
+  color: #a9a9a9;
+}
+
+.data {
+  color: #2d2d2d;
+}
+
+.linkBook {
+  height: 285px;
+}
+
+.book {
+  width: 200px;
+  height: 285px;
+  margin-right: 2rem;
+  margin-top: 0.5rem;  
+  animation: leaves 0.2s;
+  margin-bottom: 2rem;
+}
+
+dd {
+  display: flex;
+  margin: auto 0;
+  font-family: Garamond, "EB Garamond", serif;
+  margin-bottom: 0.8rem;
+  margin-top: 0.2rem;
+  font-size: 18px;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+dd a {
+  height: 285px;
+}
+
+dd a img {
+  padding-bottom: 1rem;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+span {
+  margin-top: 0.5rem;
+}
+
+#available {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: ubuntu;
+  animation: fadeIn 2s;
+  -webkit-animation: fa2eIn 5s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+#available a {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #0000cd;
+}
+
+a:hover, a:visited{
+  color: #8A1EFA;
+} 
+
+hr {
+  margin-bottom: 8px;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+#callLive {
+  font-family: ubuntu;
+  font-size: 18px;
+  font-weight: bold;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+#mediaSocial {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+#mediaSocial img {
+  width: 60px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+footer img {
+  border-radius: 50%;
+  margin: 0 auto;
+  width: 160px;
+  height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer p {
+  margin-top: 0.5rem;
+  font-family: ubuntu;
+  margin-bottom: 0.5rem;
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+  -moz-animation: fadeIn 2s;
+  -o-animation: fadeIn 2s;
+  -ms-animation: fadeIn 2s;
+}
+
+
+[data-anime="accordion"] dt::before {
+  content: "► "; 
+  position: relative;
+  bottom: 2px;
+}
+
+[data-anime="accordion"] dt.active::before {
+  content: "▼"; 
+  margin-right: 0.25rem;
+}
+
+[data-anime="accordion"] dd {
+  display: none; }
+
+[data-anime="accordion"] dd.active {
+  display: flex;
+  animation: slideDown 0.5s forwards; }
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@keyframes leaves {
+  0% {
+      transform: scale(0);
+  }
+  100% {
+      transform: scale(1.0);
+  }
+}
+
+@media only screen and (max-width: 787px) {
+  #presentation {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #perfil {
+    margin-bottom: 1rem;
+  }
+
+  #phrase {
+    font-size: 16px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+
+  #reference {
+    font-size: 14px;
+    padding: 0 0.5rem;
+  }
+
+  #intro {
+    padding: 0 24px;
+    font-size:18px;
+  }
+
+  #titleBook {
+    font-size: 16px;
+    padding: 0 24px;
+  }
+
+  dl {
+    padding: 0 24px;
+  }
+
+  dt {
+    font-size: 16px;
+  }
+
+  dd {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #available {
+    font-size: 12px;
+  }
+
+  #callLive {
+    font-size: 18px;
+    padding: 0 24px;
+    font-weight: bold;
+  }
+
+  #mediaSocial{
+    padding: 0 12px;
+  }
+
+  #mediaSocial img {
+    width: 50px;
+  }
+
+  footer img {
+    width: 60px;
+    height: 60px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+
+}
